@@ -1,3 +1,10 @@
+->Spring MVC
+->MySql 
+->Hibernate
+->Maven
+
+
+
 Pracownikow i projekty nalezy wprowadzac pojedynczo przy pomocy np. Postman.
 
 Dostepne endpointy:
@@ -19,8 +26,8 @@ http://localhost:8080/konkurs/project/id - usuwanie projektu o podanym id (delet
 
 http://localhost:8080/konkurs - strona glowna 
 
-http://localhost:8080/konkurs/view - wyswietlanie statystyk ilosci zrealizowanych godzin lacznie w poszczególnych projektach (get)
+http://localhost:8080/konkurs/view - wyswietlanie statystyk ilosci zrealizowanych godzin lacznie w poszczegÃ³lnych projektach (get)
 
 http://localhost:8080/konkurs/view/report -  pobieranie raportu zawierajacego
-dane pracownikow wraz z projektami i iloscia godzin zrealizowanych w poszczególnych projektach  (get)
+dane pracownikow wraz z projektami i iloscia godzin zrealizowanych w poszczegÃ³lnych projektach  (get)
 
