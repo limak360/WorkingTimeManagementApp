@@ -55,7 +55,7 @@ public class EmployeeController {
         Employee tempEmployee = employeeService.getEmployee(employeeId);
         Project tempProject = projectService.getProject(projectId);
 
-        if ((tempEmployee == null) || (tempProject == null)) {
+        if ((tempEmployee == null) && (tempProject == null)) {
             throw new NotFoundException("Employee id or Project id not found");
         }
 
