@@ -18,7 +18,6 @@ public class Project implements Serializable {
             CascadeType.DETACH, CascadeType.REFRESH})
     @JoinTable(
             name = "project_employee",
-
             joinColumns = {
                     @JoinColumn(name = "project_id", referencedColumnName = "id"),
                     @JoinColumn(name = "hours", referencedColumnName = "hours")

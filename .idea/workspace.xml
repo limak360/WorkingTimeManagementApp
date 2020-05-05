@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdf9ded6-f854-447e-9202-3a0214fe606d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kamiljacko/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kamiljacko/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kamiljacko/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kamiljacko/entity/Project.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588686510067</updated>
       <workItem from="1588686516727" duration="583000" />
+      <workItem from="1588687236747" duration="17000" />
     </task>
     <servers />
   </component>

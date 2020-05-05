@@ -19,9 +19,7 @@ public class Employee implements Serializable {
             CascadeType.DETACH, CascadeType.REFRESH})
     @JoinTable(
             name = "project_employee",
-
             joinColumns = @JoinColumn(name = "employee_id", referencedColumnName = "id"),
-
             inverseJoinColumns = {
                     @JoinColumn(name = "project_id", referencedColumnName = "id"),
                     @JoinColumn(name = "hours", referencedColumnName = "hours")
