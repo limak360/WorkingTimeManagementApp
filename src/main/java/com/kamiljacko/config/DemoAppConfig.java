@@ -30,7 +30,8 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 public class DemoAppConfig implements WebMvcConfigurer {
 	private final Environment env;
 	private final Logger logger = Logger.getLogger(getClass().getName());
-
+	
+	@Autowired
 	public DemoAppConfig(Environment env) {
 		this.env = env;
 	}
