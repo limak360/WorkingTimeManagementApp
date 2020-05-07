@@ -11,7 +11,8 @@ import org.springframework.stereotype.Repository;
 public class EmployeeDAOImpl implements EmployeeDAO {
     private final SessionFactory sessionFactory;
     private final JdbcTemplate jdbcTemplate;
-
+    
+    @Autowired
     public EmployeeDAOImpl(SessionFactory sessionFactory, JdbcTemplate jdbcTemplate) {
         this.sessionFactory = sessionFactory;
         this.jdbcTemplate = jdbcTemplate;
