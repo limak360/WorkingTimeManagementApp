@@ -15,6 +15,7 @@ public class InfoDAOImpl
         implements InfoDAO {
     private final JdbcTemplate jdbcTemplate;
 
+    @Autowired
     public InfoDAOImpl(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
