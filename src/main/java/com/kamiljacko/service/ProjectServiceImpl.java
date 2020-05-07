@@ -10,6 +10,7 @@ public class ProjectServiceImpl
         implements ProjectService {
     private final ProjectDAO projectDAO;
 
+    @Autowired
     public ProjectServiceImpl(ProjectDAO projectDAO) {
         this.projectDAO = projectDAO;
     }
