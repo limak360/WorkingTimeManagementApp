@@ -11,6 +11,7 @@ public class ProjectDAOImpl implements ProjectDAO {
     private final SessionFactory sessionFactory;
     private final JdbcTemplate jdbcTemplate;
 
+    @Autowired
     public ProjectDAOImpl(SessionFactory sessionFactory, JdbcTemplate jdbcTemplate) {
         this.sessionFactory = sessionFactory;
         this.jdbcTemplate = jdbcTemplate;
