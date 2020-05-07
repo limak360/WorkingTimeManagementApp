@@ -16,6 +16,7 @@ import java.util.List;
 public class ViewController {
     final InfoService infoService;
 
+    @Autowired
     public ViewController(InfoService infoService) {
         this.infoService = infoService;
     }
