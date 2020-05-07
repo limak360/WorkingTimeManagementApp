@@ -13,6 +13,7 @@ public class InfoServiceImpl
         implements InfoService {
     private final InfoDAO infoDAO;
 
+    @Autowired
     public InfoServiceImpl(InfoDAO infoDAO) {
         this.infoDAO = infoDAO;
     }
